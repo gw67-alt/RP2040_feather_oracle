@@ -9,7 +9,7 @@ This project provides a simple yet powerful implementation of a deterministic or
 
 O = C² < S/4
 
-Where O = oracle, C= cost, S= state space.
+Where O = oracle, C = cost, S = state space.
 
 
 Tags: rp2040, raspberry-pi-pico, oracle, cryptography, deterministic, non-interactive, embedded, firmware
