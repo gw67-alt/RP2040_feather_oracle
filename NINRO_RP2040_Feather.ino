@@ -2,8 +2,8 @@
 // Focuses only on correlation visualization
 
 #define NUM_CHANNELS 4
-#define SAMPLE_RATE_MS 50    // Slower for real-time visibility
-#define HISTORY_SIZE 20      // Smaller buffer for speed
+#define SAMPLE_RATE_MS 100    // Slower for real-time visibility
+#define HISTORY_SIZE 200      // Smaller buffer for speed
 #define GANTT_WIDTH 40       // Compact display
 #define GANTT_HISTORY 20     // Real-time window
 
