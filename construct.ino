@@ -159,7 +159,7 @@ void loop() {
           mediumSignalCount++;
         }
       }
-      if (mediumSignalCount > 3) {
+      if (mediumSignalCount >= 3) {
         // set color to green (Red and Green are swapped in your original logic)
 
         Serial.println(word.c_str());
