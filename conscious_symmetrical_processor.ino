@@ -136,6 +136,7 @@ void loop() {
   // is empty, resulting in an empty 'wordArray'. All sampling and processing
   // logic is contained within this loop and will therefore not run.
   for (const std::string& word : wordArray) {
+      for (const std::string& wordB : wordArray) {
   unsigned long currentTime = millis();
 
     if (Serial.available()) {
@@ -160,11 +161,15 @@ void loop() {
         }
       }
       if (mediumSignalCount >= 2) {
-        Serial.println(word.c_str());
+        Serial.print(word.c_str());
+         Serial.print(" ");
+        Serial.println(wordB.c_str());
+       
       }
       
       dataIndex = (dataIndex + 1) % HISTORY_SIZE;
       lastSample = currentTime;
     }
   }
+}
 }
