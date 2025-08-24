@@ -96,15 +96,15 @@ void loop() {
     }
 
     // Light pin 13 LED when 3 or more channels align
-    if (mediumSignalCount >= 3) {
+    if (mediumSignalCount == 0) {
       // set color to red
-      pixels.fill(0xFF0000);
+      pixels.fill(0x00FF00);
       pixels.show();
 
     } else {
       
       // turn off
-      pixels.fill(0x000000);
+      pixels.fill(0xFF0000);
       pixels.show();
     }
     
