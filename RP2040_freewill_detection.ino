@@ -1,4 +1,4 @@
-// Real-Time Gantt Chart Oscilloscope - Minimal Version
+ // Real-Time Gantt Chart Oscilloscope - Minimal Version
 // Focuses only on correlation visualization with LED control
 
 
